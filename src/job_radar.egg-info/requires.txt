@@ -1,0 +1,6 @@
+httpx
+lxml
+beautifulsoup4
+pydantic
+python-dotenv
+rich

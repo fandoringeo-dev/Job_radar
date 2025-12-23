@@ -1,0 +1,19 @@
+[project]
+name = "job-radar"
+version = "0.1.0"
+description = "Job vacancies aggregator for portfolio"
+requires-python = ">=3.11"
+dependencies = [
+  "httpx",
+  "lxml",
+  "beautifulsoup4",
+  "pydantic",
+  "python-dotenv",
+  "rich",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {
+      "name": "demo_rss_python",
+      "type": "rss",
+      "url": "https://example.com/feed?q=python"
+    }
+  ]
+}
